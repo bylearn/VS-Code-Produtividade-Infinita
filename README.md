@@ -1,3 +1,4 @@
+
 # VS Code: Produtividade Infinita
 
 - [VS Code: Produtividade Infinita](#vs-code-produtividade-infinita)
@@ -171,7 +172,7 @@
       - [Move TS](#move-ts)
       - [TypeScript Import](#typescript-import)
     - [Extensões - JavaScript](#extens%C3%B5es---javascript)
-    - [Turbo Console.log()](#turbo-consolelog)
+      - [Turbo Console.log()](#turbo-consolelog)
       - [JavaScript (ES6) code snippets](#javascript-es6-code-snippets)
       - [JavaScript Booster](#javascript-booster)
       - [ESLint](#eslint)
@@ -219,7 +220,7 @@
       - [Extra: Dica de Icones](#extra-dica-de-icones)
       - [Extra: Configurações Produtividade 10000%](#extra-configura%C3%A7%C3%B5es-produtividade-10000)
       - [Extra: Configurações Customização 10000%](#extra-configura%C3%A7%C3%B5es-customiza%C3%A7%C3%A3o-10000)
-      - [Extra: Cursos Gratuitos de VS Code](#extra-cursos-gratuitos-de-vs-code)
+    - [Extra: Cursos Gratuitos de VS Code](#extra-cursos-gratuitos-de-vs-code)
   - [Autores](#autores)
     - [Felipe Cabrera Ribeiro dos Santos](#felipe-cabrera-ribeiro-dos-santos)
     - [ByLearn Cursos Online](#bylearn-cursos-online)
@@ -1338,7 +1339,7 @@ Automatiza seus imports para as classes usadas em TypeScript.
 
 ### Extensões - JavaScript
 
-### Turbo Console.log()
+#### Turbo Console.log()
 
 Permite uma alternativa fácil e rápida ao comum Console.Log().
 
@@ -1670,7 +1671,7 @@ Assim como fontes e temas, também vamos deixar algumas sugestões para os icone
 
 ~~~~
 
-#### Extra: Cursos Gratuitos de VS Code
+### Extra: Cursos Gratuitos de VS Code
 
 Além deste livro, também preparamos vários cursos em vídeo para vocês!
 
