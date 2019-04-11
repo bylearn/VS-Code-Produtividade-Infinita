@@ -1,4 +1,3 @@
-
 # VS Code: Produtividade Infinita
 
 - [VS Code: Produtividade Infinita](#vs-code-produtividade-infinita)
@@ -117,7 +116,7 @@
       - [Todo Tree](#todo-tree)
       - [Auto Close Tag](#auto-close-tag)
       - [Bracket Pair Colorizer](#bracket-pair-colorizer)
-    - [Better Comments](#better-comments)
+      - [Better Comments](#better-comments)
       - [Minify](#minify)
       - [Bookmark](#bookmark)
       - [Mark Jump](#mark-jump)
@@ -184,8 +183,8 @@
       - [ES7 React/Redux/GraphQL/React-Native snippets](#es7-reactreduxgraphqlreact-native-snippets)
       - [React Extension Pack](#react-extension-pack)
     - [Extensões - Node.JS](#extens%C3%B5es---nodejs)
-  - [NPM](#npm)
-    - [NPM Intellissense](#npm-intellissense)
+      - [NPM](#npm)
+      - [NPM Intellissense](#npm-intellissense)
       - [Node Debug](#node-debug)
       - [Node Exec](#node-exec)
       - [Node Snippets](#node-snippets)
@@ -1021,7 +1020,7 @@ Pinta parênteses correspondentes da mesma cor e os difere de outros, para você
 
 ![Bracket Pair Colorizer](https://github.com/CoenraadS/BracketPair/raw/master/images/example.png)
 
-### [Better Comments](https://marketplace.visualstudio.com/itemdetails?itemName=aaron-bond.better-comments)
+#### [Better Comments](https://marketplace.visualstudio.com/itemdetails?itemName=aaron-bond.better-comments)
 
 Adiciona uma série de tags para comentários, como alertas, TODO, destaques, parametros e etc...
 
@@ -1398,13 +1397,13 @@ Pacote com várias extensões muito úteis para React.
 
 ### Extensões - Node.JS
 
-## NPM
+#### NPM
 
 Suporte ao NPM (Node Package Manager ) pelo VS Code.
 
 ![NPM](https://github.com/Microsoft/vscode-npm-scripts/raw/master/images/cmds.png)
 
-### NPM Intellissense
+#### NPM Intellissense
 
 Auto completar modulos do NPM.
 
