@@ -1,6 +1,8 @@
 
 # VS Code: Produtividade Infinita
 
+![Capa VSCODE: Produtividade Infinita](https://i.imgur.com/pgoNA2e.jpg)
+
 - [VS Code: Produtividade Infinita](#vs-code-produtividade-infinita)
   - [Produtividade 200% - Iniciando no VS Code da melhor maneira](#produtividade-200---iniciando-no-vs-code-da-melhor-maneira)
     - [O básico do VS Code](#o-b%C3%A1sico-do-vs-code)
@@ -220,7 +222,12 @@
       - [Extra: Dica de Icones](#extra-dica-de-icones)
       - [Extra: Configurações Produtividade 10000%](#extra-configura%C3%A7%C3%B5es-produtividade-10000)
       - [Extra: Configurações Customização 10000%](#extra-configura%C3%A7%C3%B5es-customiza%C3%A7%C3%A3o-10000)
-    - [Extra: Cursos Gratuitos de VS Code](#extra-cursos-gratuitos-de-vs-code)
+  - [Bônus](#b%C3%B4nus)
+    - [Bônus: Cursos Gratuitos de VS Code](#b%C3%B4nus-cursos-gratuitos-de-vs-code)
+    - [Bônus: Ebook do repositório](#b%C3%B4nus-ebook-do-reposit%C3%B3rio)
+      - [Windows, Mac e Linux](#windows-mac-e-linux)
+      - [Navegadores](#navegadores)
+      - [Dispositivos Móveis](#dispositivos-m%C3%B3veis)
   - [Autores](#autores)
     - [Felipe Cabrera Ribeiro dos Santos](#felipe-cabrera-ribeiro-dos-santos)
     - [ByLearn Cursos Online](#bylearn-cursos-online)
@@ -482,7 +489,7 @@ Um dos atalhos mais legais (e prorpositalmente deixado por último) é o de sele
 
 Exemplo:
 
-~~~(.java)
+~~~~{.java}
 public int funcao(int x)
 {
     x++;
@@ -491,7 +498,7 @@ public int funcao(int x)
 
     return x/2;
 }
-~~~
+~~~~
 
 Deixar uma variável com nome 'X' é assassinar as boas práticas da programação, é impossível saber o que ela está fazendo e qual a necessidade dela no código apenas batendo o olho! Precisamos mudar o nome para algo mais intuitivo, como filmeID.
 Para isso, selecionamos qualquer um dos *'x'* e apertamos *Ctrl + D* até que todos estejam selecionados. Depois disso basta escrevermos '*filmeID*' que todos passarão a ter esse nome.
@@ -692,7 +699,7 @@ Em outras palavras, eles permitem escrevermos um bloco de código de forma resum
 
 *Código*:
 
-~~~(.html)
+~~~~{.html}
 <ul>
     <li></li>
     <li></li>
@@ -706,7 +713,7 @@ Em outras palavras, eles permitem escrevermos um bloco de código de forma resum
 
 *Código*:
 
-~~~(.html)
+~~~~{.html}
 <ul>
     <li class="item1"></li>
     <li class="item2"></li>
@@ -720,13 +727,13 @@ Em outras palavras, eles permitem escrevermos um bloco de código de forma resum
 
 *Código*:
 
-~~~(.html)
+~~~~{.html}
 <nav>
     <ul>
         <li></li>
     </ul>
 </nav>
-~~~
+~~~~
 
 Acha que isso é tudo? O Emmet tem mais umas centenas de atalhos que fariam esse livro pesar mais de 1gb. Portanto, vamos deixar abaixo uma lista com a Cheat-Sheet oficial do Emmet para você consultar sempre que for preciso <3.
 
@@ -1671,7 +1678,11 @@ Assim como fontes e temas, também vamos deixar algumas sugestões para os icone
 
 ~~~~
 
-### Extra: Cursos Gratuitos de VS Code
+---
+
+## Bônus
+
+### Bônus: Cursos Gratuitos de VS Code
 
 Além deste livro, também preparamos vários cursos em vídeo para vocês!
 
@@ -1683,6 +1694,34 @@ Para conferir todos os cursos acesse:
 
 1. [Nossos Cursos](http://bit.ly/ByLearnVSCode)
 2. [Nosso site](http://bit.ly/ByLearn)
+
+---
+
+### Bônus: Ebook do repositório
+
+Também foi criado um Ebook no formato Epub (devido aos gifs e identação) do repositório. Portanto, você precisará de um leitor de EPUB para ler o ebook corretamente.
+
+#### Windows, Mac e Linux
+
+Para ler o ebook no seu desktop você irá precisar de um leitor de EPUB, como é o caso do [Calibre-Ebook](http://calibre-ebook.com/dowload).
+
+Documentação (caso tenha curiosidade em saber como ele funciona): [Calibre-Ebook Documentação pt-BR](https://manual.calibre-ebook.com/pt_BR/viewer.html).
+
+#### Navegadores
+
+Para ler o ebook online em seu navegador, você precisa de um leitor de EPUB.
+
+No caso do Firefox e Google Chrome você pode instalar a extensão [EpubRead](https://www.epubread.com/en/).
+
+Já no Edge a leitura é automática, não necessitando de instalar nenhuma extensão.
+
+#### Dispositivos Móveis
+
+No caso dos dispositivos móveis, você pode baixar um leitor de Epub na loja de aplicativos do seu celular, como por exemplo:
+
+Android: [Lithium](https://play.google.com/store/apps/details?id=com.faultexception.reader&hl=pt_BR).
+
+IOS: [Epub Reader](https://itunes.apple.com/us/app/epub-reader-reader-for-epub-format/id972654880?mt=8).
 
 ---
 
