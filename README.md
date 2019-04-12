@@ -1,4 +1,3 @@
-
 # VS Code: Produtividade Infinita
 
 ![Capa VSCODE: Produtividade Infinita](https://i.imgur.com/pgoNA2e.jpg)
@@ -1405,13 +1404,13 @@ Pacote com várias extensões muito úteis para React.
 
 ### Extensões - Node.JS
 
-#### NPM
+#### [NPM](https://marketplace.visualstudio.com/itemdetails?itemName=eg2.vscode-npm-script)
 
 Suporte ao NPM (Node Package Manager ) pelo VS Code.
 
 ![NPM](https://github.com/Microsoft/vscode-npm-scripts/raw/master/images/cmds.png)
 
-#### NPM Intellissense
+#### [NPM Intellissense](https://marketplace.visualstudio.com/itemdetails?itemName=christian-kohler.npm-intellisense)
 
 Auto completar modulos do NPM.
 
