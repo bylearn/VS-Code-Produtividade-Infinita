@@ -1,7 +1,5 @@
 # VS Code: Produtividade Infinita
 
-![Capa VSCODE: Produtividade Infinita](https://i.imgur.com/pgoNA2e.jpg)
-
 - [VS Code: Produtividade Infinita](#vs-code-produtividade-infinita)
   - [Produtividade 200% - Iniciando no VS Code da melhor maneira](#produtividade-200---iniciando-no-vs-code-da-melhor-maneira)
     - [O básico do VS Code](#o-b%C3%A1sico-do-vs-code)
