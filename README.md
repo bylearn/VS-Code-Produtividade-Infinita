@@ -223,10 +223,6 @@
       - [Extra: Configurações Customização 10000%](#extra-configura%C3%A7%C3%B5es-customiza%C3%A7%C3%A3o-10000)
   - [Bônus](#b%C3%B4nus)
     - [Bônus: Cursos Gratuitos de VS Code](#b%C3%B4nus-cursos-gratuitos-de-vs-code)
-    - [Bônus: Ebook do repositório](#b%C3%B4nus-ebook-do-reposit%C3%B3rio)
-      - [Windows, Mac e Linux](#windows-mac-e-linux)
-      - [Navegadores](#navegadores)
-      - [Dispositivos Móveis](#dispositivos-m%C3%B3veis)
   - [Autores](#autores)
     - [Felipe Cabrera Ribeiro dos Santos](#felipe-cabrera-ribeiro-dos-santos)
     - [ByLearn Cursos Online](#bylearn-cursos-online)
@@ -1695,16 +1691,6 @@ Para conferir todos os cursos acesse:
 2. [Nosso site](http://bit.ly/ByLearn)
 
 ---
-
-### Bônus: Ebook do repositório
-
-Também foi criado um Ebook no formato Epub (devido aos gifs e identação) do repositório. Portanto, você precisará de um leitor de EPUB para ler o ebook corretamente.
-
-#### Windows, Mac e Linux
-
-Para ler o ebook no seu desktop você irá precisar de um leitor de EPUB, como é o caso do [Calibre-Ebook](http://calibre-ebook.com/dowload).
-
-Documentação (caso tenha curiosidade em saber como ele funciona): [Calibre-Ebook Documentação pt-BR](https://manual.calibre-ebook.com/pt_BR/viewer.html).
 
 #### Navegadores
 
