@@ -6,7 +6,7 @@ Para ajudar a passar o conhecimento a diante e atingir o máximo de pessoas, est
 
 Porém, para ficar tudo perfeito precisamos da ajuda de vocês e para isso, basta contribuir aqui com o projeto.
 
-Quer saber como? [VS Code: Produtividade Infinita](como-contribuir.md)
+Quer saber como? [Aprenda a Contribuir com o projeto](como-contribuir.md)
 
 # VS Code: Produtividade Infinita
 
