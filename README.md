@@ -1,3 +1,13 @@
+# Contribua com o projeto
+
+Fala ByLearner, beleza?
+
+Para ajudar a passar o conhecimento a diante e atingir o máximo de pessoas, estamos deixando todo o conteúdo do livro disponível aqui no github para vocês.
+
+Porém, para ficar tudo perfeito precisamos da ajuda de vocês e para isso, basta contribuir aqui com o projeto.
+
+Quer saber como? [Aprenda a Contribuir com o projeto](como-contribuir.md)
+
 # VS Code: Produtividade Infinita
 
 - [VS Code: Produtividade Infinita](#vs-code-produtividade-infinita)
