@@ -192,6 +192,7 @@ Quer saber como? [Aprenda a Contribuir com o projeto](como-contribuir.md)
       - [React Native Tools](#react-native-tools)
       - [ES7 React/Redux/GraphQL/React-Native snippets](#es7-reactreduxgraphqlreact-native-snippets)
       - [React Extension Pack](#react-extension-pack)
+      - [Rocketseat ReactJS](#rocketseat-reactjs)
     - [Extensões - Node.JS](#extens%C3%B5es---nodejs)
       - [NPM](#npm)
       - [NPM Intellissense](#npm-intellissense)
@@ -1404,6 +1405,9 @@ Os principais Snippets para React, Redux, GraphQl e React-Native.
 
 Pacote com várias extensões muito úteis para React.
 
+#### [Rocketseat ReactJS](https://github.com/Rocketseat/rocketseat-vscode-reactjs-snippets)
+
+Extensão com a maioria dos Snippets para ReactJS, disponível o gatilho de cada um Snippet.
 ---
 
 ### Extensões - Node.JS
