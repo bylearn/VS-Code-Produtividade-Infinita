@@ -271,19 +271,19 @@ Workspace serve como uma 'pasta' especial do VS Code onde ficarão todos os arqu
 
 Por que editar um arquivo por vez se podemos editar mais? Um bom programador sempre edita no minimo 5 arquivos por vez! Brincadeiras a parte, visualizar vários arquivos por vês é algo muito bom, você consegue compará-los, analisá-los e até alterá-los se necessário.
 
-Para isso, basta apertar *Ctrl + ]* e você irá dividir a tela do VS Code.
+Para isso, basta apertar _Ctrl + ]_ e você irá dividir a tela do VS Code.
 
 #### Editando várias linhas por vez
 
-Um recurso bem interessante do VS Code é a opção de múltiplos cursores ao mesmo tempo. Para tal função, precisamos apenas segurar a tela *ALT* e clicar nas posições onde queremos que os cursores sejam inseridos.
+Um recurso bem interessante do VS Code é a opção de múltiplos cursores ao mesmo tempo. Para tal função, precisamos apenas segurar a tela _ALT_ e clicar nas posições onde queremos que os cursores sejam inseridos.
 
 #### Renomeando de forma fácil
 
-Esqueça ficar renomeando variáveis uma a uma! Basta selecionar a variável, método ou classe desejada e apertar *F2*. Após renomear a selecionada, todas as ocorrências no projeto também mudarão para o que você escolheu.
+Esqueça ficar renomeando variáveis uma a uma! Basta selecionar a variável, método ou classe desejada e apertar _F2_. Após renomear a selecionada, todas as ocorrências no projeto também mudarão para o que você escolheu.
 
 #### Usando o terminal embutido
 
-Você sabia que o VS Code tem um terminal embutido? Basta apertar *Ctrl + Shift + '* e será criado um novo terminal. Lembre-se sempre de usá-lo quando for preciso algum comando bash, por exemplo. Abrir o terminal do nativo do sistema é apenas um gasto de tempo.
+Você sabia que o VS Code tem um terminal embutido? Basta apertar _Ctrl + Shift + '_ e será criado um novo terminal. Lembre-se sempre de usá-lo quando for preciso algum comando bash, por exemplo. Abrir o terminal do nativo do sistema é apenas um gasto de tempo.
 
 #### Pesquise em vários lugares de uma vez só
 
@@ -484,15 +484,15 @@ Até o fim: Shift + End
 
 ##### Selecionar toda a palavra
 
-Deixe o cursor em qualquer parte da palavra escolhida e aperte: *Ctrl + D*
+Deixe o cursor em qualquer parte da palavra escolhida e aperte: _Ctrl + D_
 
 ##### Selecionar todas as palavras iguais
 
-Um dos atalhos mais legais (e prorpositalmente deixado por último) é o de selecionar todas as palavras iguais a sua. Para isso, selecione uma palavra como no atalho anterior (*Ctrl + D*) e aperte *D* novamente para cada palavra igual a essa que dejeja selecionar.
+Um dos atalhos mais legais (e prorpositalmente deixado por último) é o de selecionar todas as palavras iguais a sua. Para isso, selecione uma palavra como no atalho anterior (_Ctrl + D_) e aperte _D_ novamente para cada palavra igual a essa que dejeja selecionar.
 
 Exemplo:
 
-~~~~{.java}
+```{.java}
 public int funcao(int x)
 {
     x++;
@@ -501,10 +501,10 @@ public int funcao(int x)
 
     return x/2;
 }
-~~~~
+```
 
 Deixar uma variável com nome 'X' é assassinar as boas práticas da programação, é impossível saber o que ela está fazendo e qual a necessidade dela no código apenas batendo o olho! Precisamos mudar o nome para algo mais intuitivo, como filmeID.
-Para isso, selecionamos qualquer um dos *'x'* e apertamos *Ctrl + D* até que todos estejam selecionados. Depois disso basta escrevermos '*filmeID*' que todos passarão a ter esse nome.
+Para isso, selecionamos qualquer um dos _'x'_ e apertamos _Ctrl + D_ até que todos estejam selecionados. Depois disso basta escrevermos '_filmeID_' que todos passarão a ter esse nome.
 
 ---
 
@@ -514,7 +514,7 @@ Para isso, selecionamos qualquer um dos *'x'* e apertamos *Ctrl + D* até que to
 
 Procure por 'Shell' e selecione "Allow Workspace Shell Configuration"
 
-Agora você pode ir até o terminal (como o CMD, no caso do Windows) e abrir um arquivo no code via: 'code nome\_do\_arquivo.ext'.
+Agora você pode ir até o terminal (como o CMD, no caso do Windows) e abrir um arquivo no code via: 'code nome_do_arquivo.ext'.
 
 #### Operações com linha
 
@@ -659,9 +659,9 @@ O VS Code tem mais de um tipo de Breakpoint e para ativá-los, basta clicar com 
 
 1. Default: O normal, é só o código chegar lá que ele irá executar o Breakpoint;
    1. Representado por um círculo vermelho.
-2. Condicional: Precisa de uma condição lógica para ativar o Breakpoint, algo como *'x == 2'*;
-   1. Representado por um círculo vermelho com um simbolo de igualdade (*=*) dentro dele.
-3. Log Message: Bem diferente dos outros, ele não pausa o código, apenas mostra uma mensagem no painel Debug Console. Ótimo para substituir um *'print()'*.
+2. Condicional: Precisa de uma condição lógica para ativar o Breakpoint, algo como _'x == 2'_;
+   1. Representado por um círculo vermelho com um simbolo de igualdade (_=_) dentro dele.
+3. Log Message: Bem diferente dos outros, ele não pausa o código, apenas mostra uma mensagem no painel Debug Console. Ótimo para substituir um _'print()'_.
    1. Representado por um losângulo vermelho
 
 ![debug](https://i.imgur.com/1NjT1C8.gif)
@@ -678,11 +678,11 @@ Evolua e torne-se um programador supremo, faça em um dia o que você faria na s
 
 Antes de começarmos a falar dos 'atalhos' mais complexos do Emmet e dos Snippets, vamos ter **CERTEZA** que você está familiarizado com todos os atalhos do VS Code!
 
-Você pode tanto dar uma nova lida nos atalhos mostrados anteriormente quanto também mudar os atalhos atuais para outros que você prefira e ache mais cômodo. Para isso, basta irmos em '*File > Preferences > Keyboard Shortcuts*' e mudamos os atalhos que quisermos.
+Você pode tanto dar uma nova lida nos atalhos mostrados anteriormente quanto também mudar os atalhos atuais para outros que você prefira e ache mais cômodo. Para isso, basta irmos em '_File > Preferences > Keyboard Shortcuts_' e mudamos os atalhos que quisermos.
 
 ![CustomAtalho](https://i.imgur.com/E0wrdIL.png)
 
-Porém, se você veio de algum outro editor de texto ou IDE (como o Visual Studio), você pode se aproveitar do Keymap deles, fazendo os atalhos ficarem iguais aos que você está acostumado :D. Basta irmos em '*File > Preferences > Keymap Extensions*'
+Porém, se você veio de algum outro editor de texto ou IDE (como o Visual Studio), você pode se aproveitar do Keymap deles, fazendo os atalhos ficarem iguais aos que você está acostumado :D. Basta irmos em '_File > Preferences > Keymap Extensions_'
 e veremos uma série de extensões que já possuem os atalhos configurados de acordo com o Keymap de outros editores.
 
 ![Keymap](https://i.imgur.com/r3XBIbg.png)
@@ -694,15 +694,15 @@ e veremos uma série de extensões que já possuem os atalhos configurados de ac
 Agora que os atalhos estão certos, vamos aprender os "Atalhos 2.0 - Ultra Turbo", os Emmets!
 Os Emmets possuem a seguinte definição:
 
->Emmet é um conjunto de plug-ins para editores de texto que permitem a codificação e edição em HTML, XML, XSL e outros formatos de código estruturado de alta velocidade via assistente de conteúdo.
+> Emmet é um conjunto de plug-ins para editores de texto que permitem a codificação e edição em HTML, XML, XSL e outros formatos de código estruturado de alta velocidade via assistente de conteúdo.
 
 Em outras palavras, eles permitem escrevermos um bloco de código de forma resumida, como por exemplo:
 
-*Comando*: **ul>li\*5**
+_Comando_: **ul>li\*5**
 
-*Código*:
+_Código_:
 
-~~~~{.html}
+```{.html}
 <ul>
     <li></li>
     <li></li>
@@ -710,13 +710,13 @@ Em outras palavras, eles permitem escrevermos um bloco de código de forma resum
     <li></li>
     <li></li>
 </ul>
-~~~~
+```
 
-*Comando*: **ul>li.item$\*5**
+_Comando_: **ul>li.item\$\*5**
 
-*Código*:
+_Código_:
 
-~~~~{.html}
+```{.html}
 <ul>
     <li class="item1"></li>
     <li class="item2"></li>
@@ -724,19 +724,19 @@ Em outras palavras, eles permitem escrevermos um bloco de código de forma resum
     <li class="item4"></li>
     <li class="item5"></li>
 </ul>
-~~~~
+```
 
-*Comando*: **nav>ul>li**
+_Comando_: **nav>ul>li**
 
-*Código*:
+_Código_:
 
-~~~~{.html}
+```{.html}
 <nav>
     <ul>
         <li></li>
     </ul>
 </nav>
-~~~~
+```
 
 Acha que isso é tudo? O Emmet tem mais umas centenas de atalhos que fariam esse livro pesar mais de 1gb. Portanto, vamos deixar abaixo uma lista com a Cheat-Sheet oficial do Emmet para você consultar sempre que for preciso <3.
 
@@ -748,7 +748,7 @@ Acha que isso é tudo? O Emmet tem mais umas centenas de atalhos que fariam esse
 
 Agora vamos falar dos "Atalhos 3.0 - Ultra Mega Turbo Blaster", os snippets. Basicamente eles são acronomos/sigla/atalhos para um certo bloco de código específico e o melhor de tudo: **eles são configuráveis e você pode fazer os seus :D**.
 
-Quem programa C# conhece o famoso atalho *CW* que nos gera *Console.WriteLine()* e os amantes de java nunca deixam o *sysout* de lado, para gerar o *System.out.println()*, tais atalhos são os chamados Snippets!
+Quem programa C# conhece o famoso atalho _CW_ que nos gera _Console.WriteLine()_ e os amantes de java nunca deixam o _sysout_ de lado, para gerar o _System.out.println()_, tais atalhos são os chamados Snippets!
 
 O VS Code por padrão já possui alguns, mas há **vários** outros que podemos instalar e configurar. Primeiro temos que ir até o menu de Extensões e em seguida procurar por "Snippets" e pronto: Temos uma imensa lista de Snippets prontos para usarmos, das mais diversas linguagens.
 
@@ -778,14 +778,14 @@ Usar o Git no VS Code é muito simples, basta selecionar a opção Git na Activi
 3. Mais Ações: Ações extras do git, como por exemplo, enviar os Commits ao repositório e receber as ultimas mudanças dos seus colegas de equipe;
 4. Mudanças: Indica tudo que mudou no nosso projeto desde o ultimo Commit.
 
-Por sua vez, a aba de *'Mais Ações'* possui as demais funções do git que também são muito úteis, como por exemplo:
+Por sua vez, a aba de _'Mais Ações'_ possui as demais funções do git que também são muito úteis, como por exemplo:
 
 ![git2](https://i.imgur.com/uWMWwrP.png)
 
 1. Pull: Recebe as ultimas alterações do repositório
 2. Push: Envia suas ultimas alterações para o repositório
 3. Checkout To: Permite mudar a branch para qual vai enviar os commits
-   1. Branch: Para qual das '*divisões*' do repositório serão enviadas as alterações, como por exemplo: versão Release, Beta, Alpha, Dev
+   1. Branch: Para qual das '_divisões_' do repositório serão enviadas as alterações, como por exemplo: versão Release, Beta, Alpha, Dev
 4. Stage All: Armazenas todas suas alterações para serem enviadas no próximo Commit
 5. Show Git Output: Mostra o Output (saída) do git, mostrando via CLI (linha de comando) tudo o que está acontecendo no git, como os commits enviados, os pulls recebidos e etc...
 
@@ -795,14 +795,14 @@ Por sua vez, a aba de *'Mais Ações'* possui as demais funções do git que tam
 
 Lint segundo sua definição pode ser entendido como:
 
->lint era o nome originalmente dado a um programa em particular que sinalizava algumas construções suspeitas e não portáteis (provavelmente bugs) no código-fonte da linguagem C. O termo agora é aplicado genericamente a ferramentas que sinalizam uso suspeito em software escrito em qualquer linguagem de computador.
+> lint era o nome originalmente dado a um programa em particular que sinalizava algumas construções suspeitas e não portáteis (provavelmente bugs) no código-fonte da linguagem C. O termo agora é aplicado genericamente a ferramentas que sinalizam uso suspeito em software escrito em qualquer linguagem de computador.
 
 O que em outras palavras pode ser entendido como:
 
 > O Lint facilita a sua codificação uma vez que ele sinaliza partes erradas ou que ferem algum padrão de guideline da linguagem. Com isso, você consegue saber qual a parte que precisa modificar para corrigir.
 > Os Lints também podem colorir o seu código a fim de exaltar melhor o que é cada parte e sua função (onde é uma variavel, onde é uma função e etc...)
 
-Para conseguir baixar vários Lints prontos para as mais diversas linguagens, basta ir em Extensões e procurar por *Lint*.
+Para conseguir baixar vários Lints prontos para as mais diversas linguagens, basta ir em Extensões e procurar por _Lint_.
 
 ![lints](https://i.imgur.com/ITMKKVD.png)
 
@@ -812,7 +812,7 @@ Para conseguir baixar vários Lints prontos para as mais diversas linguagens, ba
 
 O VS Code também possui uma série de recomendações para os usuários, que aumentam conforme você vai utilizando o programa, ou seja, ele vai aprendendo seus gostos e o que você mais usa e vai te dando recomendações.
 
-Para acessar é muito fácil basta ir até a aba de extensões e digitar "*@recommended*".
+Para acessar é muito fácil basta ir até a aba de extensões e digitar "_@recommended_".
 Em seguida vocÊ receberá recomendações tanto para o seu Workspace atual quanto para o seu uso rotineiro.
 
 ![Recomendações](https://i.imgur.com/OmmJ6SD.png)
@@ -823,11 +823,11 @@ Em seguida vocÊ receberá recomendações tanto para o seu Workspace atual quan
 
 Os formatadores mais completos executam uma ação conhecida como Beautify, que baseia-se em pegar um código humanamente difícil de se ler e transforma em uma versão bem mais bonita e fácil de ler e entender.
 
-Um exemplo disso são os arquivos *Minificados*, que executam tecnicas para reduzir o peso dos arquivos, deixando tudo em apenas uma linha. Tal prática é bem popular com códigos JS. As extensões formatadoras são boas para exatamente isso, elas pegam aquele código totalmente dificil de ler e os tornam muito mais fácil de ler.
+Um exemplo disso são os arquivos _Minificados_, que executam tecnicas para reduzir o peso dos arquivos, deixando tudo em apenas uma linha. Tal prática é bem popular com códigos JS. As extensões formatadoras são boas para exatamente isso, elas pegam aquele código totalmente dificil de ler e os tornam muito mais fácil de ler.
 
 Além dos códigos em JS, também são bem úteis para JSON, CSS e HTML
 
-Para encontrá-las basta procurar por *Beautify* nas extensões.
+Para encontrá-las basta procurar por _Beautify_ nas extensões.
 
 ![beautify](https://i.imgur.com/RRZk3Mo.png)
 
@@ -841,16 +841,16 @@ Estamos chegando! A produtividade infinita está logo a frente! Vamos apenas apr
 
 Algo bem legal no VS, ainda mais para linguagens como Python que os blocos são delimitados pela identação, é saber o quanto de espaços iniciais você já deu em uma determinada linha, além de saber se deu dois espaços seguidos sem querer.
 
-Para ativar isso podemos ir nas opções (*File > Preferences > Settings*) e procurar por *Render Whitespace*. Em seguida temos duas opções:
+Para ativar isso podemos ir nas opções (_File > Preferences > Settings_) e procurar por _Render Whitespace_. Em seguida temos duas opções:
 
 1. All: Todos os espaços;
 2. Boundary: Só os espaços nas bordas (inicio e fim) das linhas e espaços duplos.
 
 ### Auto Save
 
-Também nas opções (*File > Preferences > Settings*) podemos ativar o Auto Save para salvar automaticamente nosso documento. Para isso basta procurar lá por *AutoSave*, escolher a opção desejada afterDelay, onFocusChange ou onWindowChange e caso escolha a primeira, definir o temp o de Delay logo abaixo.
+Também nas opções (_File > Preferences > Settings_) podemos ativar o Auto Save para salvar automaticamente nosso documento. Para isso basta procurar lá por _AutoSave_, escolher a opção desejada afterDelay, onFocusChange ou onWindowChange e caso escolha a primeira, definir o temp o de Delay logo abaixo.
 
-Recomendação: Ative com a opção *afterDelay* e escolha um tempo de delay de 100.
+Recomendação: Ative com a opção _afterDelay_ e escolha um tempo de delay de 100.
 
 ### Copiar e colar multiplas linhas
 
@@ -884,7 +884,7 @@ Falando sobre fontes, uma das mais utilizadas no VS Code é a Fira Code, uma fon
 
 Para utilizar a Fira Code basta baixar do repositório oficial [aqui](https://github.com/tonsky/FiraCode) e instalar no seu sistema operacional.
 
-Em seguida, vamos em Opções no VS Code (*File > Preferences > Settings*) e procuramos por *Font*, configurando as propriedades *Font Family* e *Font Ligatures* como na imagem abaixo:
+Em seguida, vamos em Opções no VS Code (_File > Preferences > Settings_) e procuramos por _Font_, configurando as propriedades _Font Family_ e _Font Ligatures_ como na imagem abaixo:
 
 ![FiraCode](https://i.imgur.com/BSicARd.png)
 
@@ -896,7 +896,7 @@ Através dos Breadcrumbs fica bem fácil saber onde você está na workspace, em
 
 ### Linhas Vazias
 
-Para excluir todas as linhas em branco é muito simples, basta apertar *Ctrl+H* e você verá a opção de Search & Replace (Buscar e Substituir), ativar a buscar por Regex *(Alt + R* no campo de busca) e então basta buscar por "*\n\s\*\n*" e pedir para substituir por apenas "*\n*", em seguida apertando no botão Substituir Todos (*Ctrl + Alt + Enter*).
+Para excluir todas as linhas em branco é muito simples, basta apertar _Ctrl+H_ e você verá a opção de Search & Replace (Buscar e Substituir), ativar a buscar por Regex _(Alt + R_ no campo de busca) e então basta buscar por "_\n\s\*\n_" e pedir para substituir por apenas "_\n_", em seguida apertando no botão Substituir Todos (_Ctrl + Alt + Enter_).
 
 ![regexreplace](https://i.imgur.com/thk10GN.png)
 
@@ -904,7 +904,7 @@ Para excluir todas as linhas em branco é muito simples, basta apertar *Ctrl+H* 
 
 Eu aposto que várias vezes você já tentou delimitar alguma seleção com aspas, parenteses, barras e afins, mas sempre precisou inserir uma antes e uma depois, para não substituir o texto, certo?
 
-Com o VS Code basta você selecionar as palavras e apetar o delimitador de inicio, como *[*, *(*, *'*, *"* e automaticamente o CS Code já irá colocar o respectivo delimitador no inicio e fim da seleção.
+Com o VS Code basta você selecionar as palavras e apetar o delimitador de inicio, como _[_, _(_, _'_, _"_ e automaticamente o CS Code já irá colocar o respectivo delimitador no inicio e fim da seleção.
 
 ![delimitador](https://i.imgur.com/Fwgct7l.gif)
 
@@ -912,7 +912,7 @@ Com o VS Code basta você selecionar as palavras e apetar o delimitador de inici
 
 Os testes unitários ajudam muito na hora de testar seu código e ver se não restou nenhum tipo de erro ou problema que passou nos testes rotineiros (compilar, tentar usar e ver se pegou). Por sorte, o VS Code tem muitas extensões para testes unitários, em várias linguagens.
 
-Para instalar essas extensões basta ir na sessão de Extensões na Activity Bar e procurar por *Unit Test*.
+Para instalar essas extensões basta ir na sessão de Extensões na Activity Bar e procurar por _Unit Test_.
 
 ![Unit Test](https://i.imgur.com/vQtmlQY.png)
 
@@ -930,7 +930,7 @@ Permite rodar códigos direto no VS Code nas seguintes linguagens:
 
 C, C++, Java, JavaScript, PHP, Python, Perl, Perl 6, Ruby, Go, Lua, Groovy, PowerShell, BAT/CMD, BASH/SH, F# Script, F# (.NET Core), C# Script, C# (.NET Core), VBScript, TypeScript, CoffeeScript, Scala, Swift, Julia, Crystal, OCaml Script, R, AppleScript, Elixir, Visual Basic .NET, Clojure, Haxe, Objective-C, Rust, Racket, AutoHotkey, AutoIt, Kotlin, Dart, Free Pascal, Haskell, Nim, D, Lisp, Kit, e comandos customizados
 
-*Comando:* Aperte **Ctrl + Alt + N** para iniciar a aplicação
+_Comando:_ Aperte **Ctrl + Alt + N** para iniciar a aplicação
 
 ![Code Runner](https://github.com/formulahendry/vscode-code-runner/raw/master/images/usage.gif)
 
@@ -964,7 +964,7 @@ Extensão que permite o suporte ao Docker no VS Code.
 
 Permite verificar se o nosso Regex está pegando ao tentar encontrar padrões em um arquivo com regex com outro na tela ao lado contendo o texto a ser testado.
 
-*Comando:* Aperte **Ctrl+Alt+M** para inicar o Preview!
+_Comando:_ Aperte **Ctrl+Alt+M** para inicar o Preview!
 
 ![Regex Previewer](https://github.com/chrmarti/vscode-regex/raw/master/images/in_action.gif)
 
@@ -1001,15 +1001,15 @@ Mostra as identações (espaços) com cores diferentes em um gradiente, para mos
 
 #### [Beautify](https://marketplace.visualstudio.com/itemdetails?itemName=HookyQR.beautify)
 
-Como já foi dito anteriormente, funções com tag/nome *Beautify* servem para deixar seu código mais bonito, estruturado e organizado.
+Como já foi dito anteriormente, funções com tag/nome _Beautify_ servem para deixar seu código mais bonito, estruturado e organizado.
 
-No VS Code a principal extensão para isso chama exatamente *Beautify* e funciona com JSON, HTML, SASS e CSS. Basta apertar *F1* e digitar "Beautify file".
+No VS Code a principal extensão para isso chama exatamente _Beautify_ e funciona com JSON, HTML, SASS e CSS. Basta apertar _F1_ e digitar "Beautify file".
 
 #### [Kanban](https://marketplace.visualstudio.com/itemdetails?itemName=mkloubert.vscode-kanban#how-to-execute-)
 
 Uma extensão ótima que irá aprimorar e muito sua produtividade no VS Code através dos quadros de Kanban.
 
-*Comando:* Aperta *F1* e execute **Kanban: Open Board** para abrir o quadro Kanban.
+_Comando:_ Aperta _F1_ e execute **Kanban: Open Board** para abrir o quadro Kanban.
 
 ![Kanban](https://raw.githubusercontent.com/mkloubert/vscode-kanban/master/img/demo1.gif)
 
@@ -1103,6 +1103,12 @@ Permite tirar printscreens elegantes em Polaroid do seu código.
 
 ![PolaCode](https://github.com/octref/polacode/raw/master/demo/usage.gif)
 
+#### [Polacode](https://marketplace.visualstudio.com/itemdetails?itemName=pnp.polacode)
+
+Permite tirar printscreens elegantes em Polaroid do seu código.
+
+![PolaCode](https://github.com/octref/polacode/raw/master/demo/usage.gif)
+
 ---
 
 ### Extensões - Markdown
@@ -1147,7 +1153,7 @@ Permite visualizar códigos em JSON de uma forma mais organizada, estruturada e 
 
 #### [Python](https://marketplace.visualstudio.com/itemdetails?itemName=ms-python.python)
 
-Extensão *tudo em um* para Python, contendo Linting, Depuração, Intellisense, Formatação de Código, Refatoração, Snippets, Jupyter Notebook e muito mais...
+Extensão _tudo em um_ para Python, contendo Linting, Depuração, Intellisense, Formatação de Código, Refatoração, Snippets, Jupyter Notebook e muito mais...
 
 ![Python](https://raw.githubusercontent.com/microsoft/vscode-python/master/images/interactive.gif)
 ![Python](https://raw.githubusercontent.com/microsoft/vscode-python/master/images/debugDemo.gif)
@@ -1176,7 +1182,7 @@ Habilita o suporte ao Java no VS Code com muitas funções como Linting, Intelli
 
 ![Language Suport for Java](https://raw.githubusercontent.com/redhat-developer/vscode-java/master/images/vscode-java.0.0.1.gif)
 
-#### [Debugger for Java](https://marketplace.visualstudio.com/itemdetails?itemName=vscjava.vscode-java-debug )
+#### [Debugger for Java](https://marketplace.visualstudio.com/itemdetails?itemName=vscjava.vscode-java-debug)
 
 Um depurador de código para Java bem completo e eficaz.
 
@@ -1198,13 +1204,13 @@ Poeticamente, é uma extensão para a extensão C# da Microsoft, com varios novo
 
 #### [C# XML Documentation Comments](https://marketplace.visualstudio.com/itemdetails?itemName=k--kato.docomment)
 
-Permite criar documentações XML a partir da digitação de *///*, como acontece no Visual Studio.
+Permite criar documentações XML a partir da digitação de _///_, como acontece no Visual Studio.
 
 ![C# XML Documentation Comments](https://github.com/kasecato/vscode-docomment/raw/master/images/docomment.gif)
 
 #### [Awesome DotNetCore Pack](https://marketplace.visualstudio.com/itemdetails?itemName=salbert.awesome-dotnetcore-pack)
 
-Um pacore para C# e DotNetCore contendo várias outras extensões menores, se tornando uma extensão *tudo em um*.
+Um pacore para C# e DotNetCore contendo várias outras extensões menores, se tornando uma extensão _tudo em um_.
 
 ---
 
@@ -1232,7 +1238,7 @@ Desenvolva com Microsoft SQL Server, Azure SQL Database e SQL Data Warehouse dir
 
 #### [SQLTools](https://marketplace.visualstudio.com/itemdetails?itemName=mtxr.sqltools)
 
-Extensão para SQL cheio de ferramentas, árvore de visualização da tabela, possibilidade de rodar as *querys* de forma simples, intellisense, histórico, exportar como JSON e muito mais.
+Extensão para SQL cheio de ferramentas, árvore de visualização da tabela, possibilidade de rodar as _querys_ de forma simples, intellisense, histórico, exportar como JSON e muito mais.
 
 ![SQLTools](https://raw.githubusercontent.com/mtxr/vscode-sqltools/master/static/autocomplete.png)
 ![SQLTools](https://raw.githubusercontent.com/mtxr/vscode-sqltools/master/static/add_new_connection_ui.gif)
@@ -1306,7 +1312,7 @@ Implementa a função de autocompletar classes CSS em um arquivo HTML.
 
 Adiciona uma prévia ao seu CSS.
 
-*Comando:* Para ligar a prévia aperte **Ctrl + Shift + P**
+_Comando:_ Para ligar a prévia aperte **Ctrl + Shift + P**
 
 ![CSS Preview](https://github.com/sandorengholm/csspreview/blob/master/images/csspreview.gif?raw=true)
 
@@ -1314,7 +1320,7 @@ Adiciona uma prévia ao seu CSS.
 
 Compacta e Minifica seu código CSS.
 
-*Comando:* Para formatar aperte **Shift + Alt + F**
+_Comando:_ Para formatar aperte **Shift + Alt + F**
 
 ![CSS Compressor](https://github.com/bestvow/css-compressor/blob/master/images/beautify.png?raw=true)
 ![CSS Compressor](https://github.com/bestvow/css-compressor/blob/master/images/compact.png?raw=true)
@@ -1323,7 +1329,7 @@ Compacta e Minifica seu código CSS.
 
 Deixa seu código CSS, SASS, SCSS e LESS mais bonito e visualmente fácil de entender.
 
-*Comando:* Para formatar aperta *F1* e digite "beautify.format"
+_Comando:_ Para formatar aperta _F1_ e digite "beautify.format"
 
 ---
 
@@ -1353,7 +1359,7 @@ Automatiza seus imports para as classes usadas em TypeScript.
 
 Permite uma alternativa fácil e rápida ao comum Console.Log().
 
-*Comandos:* Alt + Shift + u e Alt + Shift + C
+_Comandos:_ Alt + Shift + u e Alt + Shift + C
 
 ![turbo console](https://i.imgur.com/Gmi4PIz.gif)
 
@@ -1395,6 +1401,12 @@ Um super pacote com as extensões para Angular mais famosas e produtivas.
 Uma série de ferramentas para poder desenvolver em React Native, como por exemplo, a possibilidade de depurar seu código.
 
 ![React Native Tools](https://github.com/Microsoft/vscode-react-native/raw/master/images/add-debug-configuration.gif)
+
+#### [Styled Components](https://github.com/styled-components/vscode-styled-components)
+
+O styled-components aprimora o CSS com cores, sintaxe e funcionalidades que o CSS convencional não teria. Para quem já usou alguma daquelas ferramentas como *sass* ou *scss*, o styled-components é similar.
+
+![Styled Components](https://raw.githubusercontent.com/styled-components/vscode-styled-components/master/demo.png)
 
 #### [ES7 React/Redux/GraphQL/React-Native snippets](https://marketplace.visualstudio.com/itemdetails?itemName=dsznajder.es7-react-js-snippets)
 
@@ -1483,7 +1495,7 @@ Permite a depuração de códigos BASH.
 
 #### [Bash Beautify](https://marketplace.visualstudio.com/itemdetails?itemName=shakram02.bash-beautify)
 
-Uma extensão *Beautify* feita para BASH, tornarndo seus códigos muito mais bonitos e organizados.
+Uma extensão _Beautify_ feita para BASH, tornarndo seus códigos muito mais bonitos e organizados.
 
 ![Bash Beautify](https://github.com/shakram02/bash_beautify/raw/master/images/formatting.gif)
 
@@ -1555,18 +1567,18 @@ Coloque sua produtividade (já infinita) ao quadrado com essas dicas excepcionai
 
 ### Extra: Materiais de Ensino
 
-1. [Github *Awesome VS Code*](https://github.com/viatsko/awesome-vscode)
-2. [Microsoft *Tips and Tricks*](https://code.visualstudio.com/docs/getstarted/tips-and-tricks)
+1. [Github _Awesome VS Code_](https://github.com/viatsko/awesome-vscode)
+2. [Microsoft _Tips and Tricks_](https://code.visualstudio.com/docs/getstarted/tips-and-tricks)
 3. [VS Code Can Do That?](https://vscodecandothat.com/)
 
-*Créditos aos devidos autores das postagens.*
+_Créditos aos devidos autores das postagens._
 
 ### Extra: Lista de Diversos Outros Atalhos
 
-Método 1: [Microsoft *Keybindings*](ttps://code.visualstudio.com/docs/getstarted/keybindings)
-Método 2: Clique na engrenagem no canto inferior esquerdo e selecione *Keyboard Shortcuts*.
+Método 1: [Microsoft _Keybindings_](ttps://code.visualstudio.com/docs/getstarted/keybindings)
+Método 2: Clique na engrenagem no canto inferior esquerdo e selecione _Keyboard Shortcuts_.
 
-*Créditos aos devidos autores das postagens.*
+_Créditos aos devidos autores das postagens._
 
 ### Extra: Personalização
 
@@ -1577,22 +1589,22 @@ Também deixamos aqui algumas configurações extras para a edição via JSON :D
 
 Escolher um tema sem dúvidas é a mais difícil das customizações, muitos preferem o estilo Dark, para evitar dor nos olhos, outros preferem cores claras, mas ambos passam mais de horas escolhendo as cores certas para cada estilo. Para evitar tanta dor de cabeça, escolhemos alguns links onde outros profissionais já tiveram essa árdua tarefa de passar horas escolhendo um tema, tudo com uma prévia feita para você decidir ainda mais rápido qual seu tema favorito :)
 
-1. [*Best VS Code themes*](https://medium.com/@tkssharma/best-vs-code-themes-cb7ce05fb27a)
-2. [*6 Hottest VS Code Themes To Use in 2019*](https://scotch.io/bar-talk/5-hottest-vs-code-themes-to-use-in-2019)
-3. [*Top 10 Visual Studio Code themes*](https://boostlog.io/@anshulc95/top-10-visual-studio-code-themes-5a9fad94e922f1008c7efb85)
-4. [*VS Code Themes*](http://orta.io/vscode-themes/)
+1. [_Best VS Code themes_](https://medium.com/@tkssharma/best-vs-code-themes-cb7ce05fb27a)
+2. [_6 Hottest VS Code Themes To Use in 2019_](https://scotch.io/bar-talk/5-hottest-vs-code-themes-to-use-in-2019)
+3. [_Top 10 Visual Studio Code themes_](https://boostlog.io/@anshulc95/top-10-visual-studio-code-themes-5a9fad94e922f1008c7efb85)
+4. [_VS Code Themes_](http://orta.io/vscode-themes/)
 
-*Créditos aos devidos autores das postagens.*
+_Créditos aos devidos autores das postagens._
 
 #### Extra: Dicas de Fontes
 
 Algumas dicas de fontes para programação podem ser encontradas nos links abaixo, com prévias das fontes em uso, para encontrar a sua ideal.
 
-1. [*Programming Fonts — A List*](https://bit.ly/2OXOaFE)
-2. [*11 Best Programming Fonts*](https://bit.ly/2s14lHr)
+1. [_Programming Fonts — A List_](https://bit.ly/2OXOaFE)
+2. [_11 Best Programming Fonts_](https://bit.ly/2s14lHr)
 3. [ProgrammingFonts.org (Teste Suas Fontes)](https://app.programmingfonts.org/#font3270)
 
-*Créditos aos devidos autores das postagens.*
+_Créditos aos devidos autores das postagens._
 
 #### Extra: Dica de Icones
 
@@ -1606,7 +1618,7 @@ Assim como fontes e temas, também vamos deixar algumas sugestões para os icone
 
 #### Extra: Configurações Produtividade 10000%
 
-~~~~{.json}
+```{.json}
 "editor.formatOnSave": true, // Formata o arquivo ao salvar
 "editor.formatOnPaste": true, // Formata o arquivo ao colar algo
 "javascript.format.enable": true, // Ativar a formatação em arquivo JS
@@ -1659,11 +1671,11 @@ Assim como fontes e temas, também vamos deixar algumas sugestões para os icone
     "files.trimTrailingWhitespace": false
 },
 
-~~~~
+```
 
 #### Extra: Configurações Customização 10000%
 
-~~~~{.json}
+```{.json}
 "workbench.colorCustomizations": { // Troque #FFFFFF pela sua cor favorita :)
         "activityBar.background": "#FFFFFF", // Cor da AcitiviryBar
         "statusBar.background": "#FFFFFF", // Cor da status bar
@@ -1679,7 +1691,7 @@ Assim como fontes e temas, também vamos deixar algumas sugestões para os icone
 "terminal.integrated.fontSize": 15, // Tamanho da fonte no terminal
 "editor.minimap.enabled": false // Desabilita o minimapa lateral ('preview' do lado direito)
 
-~~~~
+```
 
 ---
 
