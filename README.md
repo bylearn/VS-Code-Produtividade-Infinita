@@ -229,8 +229,6 @@ Quer saber como? [Aprenda a Contribuir com o projeto](como-contribuir.md)
       - [Extra: Dica de Icones](#extra-dica-de-icones)
       - [Extra: Configurações Produtividade 10000%](#extra-configura%C3%A7%C3%B5es-produtividade-10000)
       - [Extra: Configurações Customização 10000%](#extra-configura%C3%A7%C3%B5es-customiza%C3%A7%C3%A3o-10000)
-  - [Bônus](#b%C3%B4nus)
-    - [Bônus: Cursos Gratuitos de VS Code](#b%C3%B4nus-cursos-gratuitos-de-vs-code)
   - [Autores](#autores)
     - [Felipe Cabrera Ribeiro dos Santos](#felipe-cabrera-ribeiro-dos-santos)
     - [ByLearn Cursos Online](#bylearn-cursos-online)
@@ -1680,23 +1678,6 @@ Assim como fontes e temas, também vamos deixar algumas sugestões para os icone
 "editor.minimap.enabled": false // Desabilita o minimapa lateral ('preview' do lado direito)
 
 ~~~~
-
----
-
-## Bônus
-
-### Bônus: Cursos Gratuitos de VS Code
-
-Além deste livro, também preparamos vários cursos em vídeo para vocês!
-
-Os cursos são totalmente gratuitos e abordam de forma super prática e didática tudo o que apresentamos neste livro. Eles estão bem divididos, abordando apenas o necessário para você, como o que um desenvolvedor Front-End Web precisa saber, outro para o que um programador C# precisa conhecer, outro com o necessário para o programador Java, outro para Python e assim vai...
-
-Tenho certeza que você irá gostar desse incrível bônus!
-
-Para conferir todos os cursos acesse:
-
-1. [Nossos Cursos](http://bit.ly/ByLearnVSCode)
-2. [Nosso site](http://bit.ly/ByLearn)
 
 ---
 
