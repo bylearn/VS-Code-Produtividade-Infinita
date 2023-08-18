@@ -185,6 +185,7 @@ Quer saber como? [Aprenda a Contribuir com o projeto](como-contribuir.md)
       - [JavaScript (ES6) code snippets](#javascript-es6-code-snippets)
       - [JavaScript Booster](#javascript-booster)
       - [ESLint](#eslint)
+      - [Template String Converter](#template-string-converter)
     - [Extensões - Angular](#extens%C3%B5es---angular)
       - [Angular 8 Snippets](#angular-8-snippets)
       - [Angular Extension Pack](#angular-extension-pack)
@@ -1378,6 +1379,12 @@ Vários comandos de refatoração e organização de código para aprimorar aind
 
 Trás o poderoso ESLint para o VS Code.
 
+#### [Template String Converter](https://marketplace.visualstudio.com/items?itemName=meganrogge.template-string-converter)
+
+Converte uma string em uma template string quando é digitado **${**.
+
+![template string converter](https://raw.githubusercontent.com/meganrogge/template-string-converter/master/images/demo.gif)
+
 ---
 
 ### Extensões - Angular
@@ -1404,7 +1411,7 @@ Uma série de ferramentas para poder desenvolver em React Native, como por exemp
 
 #### [Styled Components](https://github.com/styled-components/vscode-styled-components)
 
-O styled-components aprimora o CSS com cores, sintaxe e funcionalidades que o CSS convencional não teria. Para quem já usou alguma daquelas ferramentas como *sass* ou *scss*, o styled-components é similar.
+O styled-components aprimora o CSS com cores, sintaxe e funcionalidades que o CSS convencional não teria. Para quem já usou alguma daquelas ferramentas como _sass_ ou _scss_, o styled-components é similar.
 
 ![Styled Components](https://raw.githubusercontent.com/styled-components/vscode-styled-components/master/demo.png)
 
@@ -1418,8 +1425,7 @@ Pacote com várias extensões muito úteis para React.
 
 #### [Rocketseat ReactJS](https://github.com/Rocketseat/rocketseat-vscode-reactjs-snippets)
 
-Extensão com a maioria dos Snippets para ReactJS, disponível o gatilho de cada um Snippet.
----
+## Extensão com a maioria dos Snippets para ReactJS, disponível o gatilho de cada um Snippet.
 
 ### Extensões - Node.JS
 
